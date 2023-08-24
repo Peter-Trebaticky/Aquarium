@@ -10,7 +10,7 @@ class Game(tk.Tk):
         self.food = self.add_food()
         self.bind_all_event()
 
-        self.time = 20
+        self.time = 30
         self.game_started = time.time()
         self.time_label = self.canvas.create_text(self.bg.width()-50, 30, text="00:00", font="arial 30", fill="orangered")
     
